@@ -528,7 +528,7 @@ namespace MergeCube
 		}
 		IEnumerator InitVuforiaCamera(){
 			yield return new WaitUntil (() => VuforiaRuntime.Instance.HasInitialized);
-			Camera.main.transform.parent.GetComponent<VuforiaBehaviour> ().enabled = true;
+			Camera.main.transform.GetComponent<VuforiaBehaviour> ().enabled = true;
 		}
 
 		public bool IsValidClick(){

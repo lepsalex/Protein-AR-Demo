@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 447327226}
   m_Layer: 0
   m_Name: ARCamera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: -1826476478, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mWorldCenterMode: 1
+  mWorldCenterMode: 3
   mWorldCenter: {fileID: 0}
 --- !u!81 &447327228
 AudioListener:
@@ -376,7 +376,7 @@ Prefab:
     - target: {fileID: 224902924752616590, guid: c2d4e1fd9efe24a7882024c4b16d833b,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224521179182696100, guid: c2d4e1fd9efe24a7882024c4b16d833b,
         type: 2}
@@ -396,7 +396,7 @@ Prefab:
     - target: {fileID: 224521179182696100, guid: c2d4e1fd9efe24a7882024c4b16d833b,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224390923138433836, guid: c2d4e1fd9efe24a7882024c4b16d833b,
         type: 2}
@@ -416,7 +416,12 @@ Prefab:
     - target: {fileID: 224390923138433836, guid: c2d4e1fd9efe24a7882024c4b16d833b,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -50
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114841065654839062, guid: c2d4e1fd9efe24a7882024c4b16d833b,
+        type: 2}
+      propertyPath: developmentKey
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c2d4e1fd9efe24a7882024c4b16d833b, type: 2}

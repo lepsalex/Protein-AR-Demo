@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 1443648642}
   m_Layer: 0
   m_Name: ARCamera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -745,7 +745,7 @@ Prefab:
     - target: {fileID: 224902924752616590, guid: c2d4e1fd9efe24a7882024c4b16d833b,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224521179182696100, guid: c2d4e1fd9efe24a7882024c4b16d833b,
         type: 2}
@@ -765,7 +765,7 @@ Prefab:
     - target: {fileID: 224521179182696100, guid: c2d4e1fd9efe24a7882024c4b16d833b,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224390923138433836, guid: c2d4e1fd9efe24a7882024c4b16d833b,
         type: 2}
@@ -785,7 +785,7 @@ Prefab:
     - target: {fileID: 224390923138433836, guid: c2d4e1fd9efe24a7882024c4b16d833b,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114834922034755934, guid: c2d4e1fd9efe24a7882024c4b16d833b,
         type: 2}
